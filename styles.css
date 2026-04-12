@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.encabezado {
+    background-color: #2c3e50; 
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+.info-institucion {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #bdc3c7;
+    margin-bottom: 1.5rem;
+}
+
+.encabezado h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.encabezado h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.tarjeta-texto p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #ddd;
+    color: #555;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+.imagen-perfil {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin: 1.5rem auto 0; 
+    border: 3px solid #2c3e50; 
+}
